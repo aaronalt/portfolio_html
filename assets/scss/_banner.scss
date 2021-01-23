@@ -1,8 +1,14 @@
 /*=======  Banner Sider  =======*/
 .banner-section {
     position: relative;
+    padding-bottom: 180px;
 
-    .sinlge-banner {
+    @include respond-below(md) {
+      padding-bottom: 100px;
+    }
+
+
+  .sinlge-banner {
         @media (min-width: 1400px) {
             padding-left: 90px;
             padding-right: 90px;

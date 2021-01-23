@@ -20,6 +20,16 @@ $breakpoints: (
     c1350: 1350px,
 );
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: #212529;
+    --body-color: #6c757d;
+    --link-color: #dee2e6;
+    --link-color-hover: #fff;
+  }
+}
+
+
 // Respond above.
 @mixin respond-above($breakpoint) {
     // If the breakpoint exists in the map.

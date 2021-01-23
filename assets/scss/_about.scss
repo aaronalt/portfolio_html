@@ -1,6 +1,7 @@
 /*======= About SCSS =======*/
 .about-section {
     padding: 20px 0;
+    padding-bottom: 180px;
 
     @include respond-below(md) {
         padding: 100px 0;
