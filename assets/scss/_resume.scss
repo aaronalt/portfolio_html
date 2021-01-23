@@ -1,0 +1,40 @@
+/*======= Resume =======*/
+
+.resume {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  @include respond-below(md) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  @include respond-below(sm) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .section-title {
+    padding: 20px 0px;
+  }
+  .resume-title {
+    padding: 40px 0px 0px 0px;
+  }
+  .resume-item {
+    padding: 10px 10px 10px 0px;
+
+    ul {
+      padding: 5px 0px 0px 0px;
+    }
+
+    a {
+      &:hover {
+        color: $blue;
+        font-weight: bold;
+      }
+
+
+    }
+  }
+}
